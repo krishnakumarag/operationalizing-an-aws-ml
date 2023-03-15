@@ -41,7 +41,7 @@ def test(model, test_loader, criterion):
 
 
 def train(model, train_loader, validation_loader, criterion, optimizer):
-    epochs=5
+    epochs=1
     best_loss=1e6
     image_dataset={'train':train_loader, 'valid':validation_loader}
     loss_counter=0
