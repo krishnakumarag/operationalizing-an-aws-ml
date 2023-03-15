@@ -1,7 +1,11 @@
-# operationalizing-an-aws-ml
+# Operationalizing-on-aws
 
-## Step 1:Training and deployment on Sagemaker
- Screenshot of created notebook instance(ml.t3.medium) this type was chosen as optimal option because of as an offer of a monthly free tier of 250 hours in aws.
-Training and deployment: I have tried m5.xlarge(but traceback occured), so then was changed to ml.p3.2xlarge, which was used and more effective and used also for deploying ML models for inference
+This project is part of Nanodegree course
 
-![Alt text](screenshots/sagemaker-instance.png?raw=true "sagemaker-instance.png")
+Project Summary
+In this project completed the following steps:
+
+  Train and deploy a model on Sagemaker, using the most appropriate instances. Set up multi-instance training in your Sagemaker notebook.
+  Adjust your Sagemaker notebooks to perform training and deployment on EC2.
+  Set up a Lambda function for your deployed model. Set up auto-scaling for your deployed endpoint as well as concurrency for your Lambda function.
+  Ensure that the security on your ML pipeline is set up properly.
